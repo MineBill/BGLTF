@@ -8,6 +8,6 @@ class Program
 	public static void Main()
 	{
 		SetupHelper.CheckDeps!();
-		SetupHelper.ConfigureAndBuild("cgltf");
+		SetupHelper.ConfigureAndBuild(".");
 	}
 }
