@@ -1,14 +1,9 @@
 # BGLTF
 Beef bindings for [cgltf](https://github.com/jkuhlmann/cgltf).
 
-Binaries are included for Windows and in the future for Linux for the sake of convenience .
-
 ## Building
-Enter the `Native` directory and run:
-```shell
-$ cmake -S . -B cmake-build
-$ cmake --build cmake-build --config Debug
-$ cmake --build cmake-build --config Release
-```
+This library uses a [`Setup`](https://www.beeflang.org/docs/packman/#package-manager-overview) program to build the native library using CMake. 
 
-These commands will build and copy both Debug/Release binaries under `dist/` with the appropriate name for Windows and Linux.
+The following dependencies are required for the `Setup` program to function correctly:
+* CMake
+* A C compiler
