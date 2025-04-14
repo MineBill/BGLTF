@@ -8,16 +8,16 @@ TargetType = "BeefLib"
 LibPaths = ["$(ProjectDir)/dist/$(Configuration)-$(Platform)/cgltfd.lib"]
 
 [Configs.Debug.Linux64]
-LibPaths = ["$(ProjectDir)/dist/$(Configuration)-$(Platform)/cgltfd.a"]
+LibPaths = ["$(ProjectDir)/dist/$(Configuration)-$(Platform)/libcgltfd.a"]
 
 [Configs.Release.Win64]
 LibPaths = ["$(ProjectDir)/dist/$(Configuration)-$(Platform)/cgltf.lib"]
 
 [Configs.Release.Linux64]
-LibPaths = ["$(ProjectDir)/dist/$(Configuration)-$(Platform)/cgltf.a"]
+LibPaths = ["$(ProjectDir)/dist/$(Configuration)-$(Platform)/libcgltf.a"]
 
 [Configs.Paranoid.Win64]
 LibPaths = ["$(ProjectDir)/dist/Release-$(Platform)/cgltf.lib"]
 
 [Configs.Paranoid.Linux64]
-LibPaths = ["$(ProjectDir)/dist/Release-$(Platform)/cgltf.a"]
+LibPaths = ["$(ProjectDir)/dist/Release-$(Platform)/libcgltf.a"]
